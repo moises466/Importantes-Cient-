@@ -1,0 +1,60 @@
+h1{
+    color: white;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 55%, rgba(45,60,253,1) 100%);
+    
+    font-family: 'Times New Roman';
+    border:solid;
+    border-radius:16px;
+    border-color: black;
+    padding: 15px;
+    text-align:center;
+
+}
+img{
+    background: rgb(67,251,63);
+    background: radial-gradient(circle, rgba(67,251,63,1) 28%, rgba(70,252,250,1) 100%);
+    border-radius:16px;
+    border-color:aqua;
+    padding: 5px;
+}
+h2{
+    color: blue;
+    font-family:Helvetica;
+    text-align:center;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#header{
+	margin: aunto;
+	width: 600px;
+}
+ul, ol{
+	list-style: none;
+
+}	
+.nav li a{
+	background: rgb(67,251,63);
+    background: radial-gradient(circle, rgba(67,251,63,1) 28%, rgba(70,252,250,1) 100%);
+	color: #fff;
+    border: solid;
+    border-radius:16px;
+	text-decoration: none;
+    text-align: center;
+	padding: 10px 1px;
+	display: block;
+}
+.nav >li{
+	float:left;
+}
+.nav li a:hover{
+	background-color: #696666;
+
+}
+body{
+    background-image: url(./Imagenes/Fondo2.jpg);
+    font-family:sans-serif;
+    text-align:justify;
+}
